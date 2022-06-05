@@ -1,3 +1,25 @@
 .site__header {
     @extend %container;
+    padding-top: 32px;
+    padding-bottom: 40px;
+    background-color: $second-background-color;
+}
+
+.site__item {
+@extend %list;
+display: flex;
+justify-content: space-between;
+margin-bottom: 32px
+}
+
+.site__link {
+    @extend %link;
+    display: block;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.site__span {
+    display: block;
+    border: 1px solid $second-color;
+    transform: matrix(1, 0, 0, 1, 0, 0);
 }

@@ -1,0 +1,42 @@
+.portfolio {
+    @extend %container;
+    padding-top: 113px;
+    padding-bottom: 96px;
+    background-color: $first-background-color;
+}
+
+.portfolio__title {
+    margin-bottom: 47px; 
+}
+
+.portfolio__item {
+ @extend %list;
+}
+
+.portfolio__list:not(:last-child) {
+    margin-bottom: 99px;
+}
+
+.portfolio__img {
+    margin-bottom: 45px;
+}
+
+.portfolio__link {
+    display: block;
+    font-family: $main-font-family;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 1.17;
+        text-align: center;
+        text-decoration-line: underline;
+        color: $main-color;
+
+        &:hover,
+        &:focus,
+        &:active {
+            color: $second-color ;
+        }
+
+        
+}

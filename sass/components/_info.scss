@@ -1,0 +1,19 @@
+.info {
+    @extend %container;
+    padding-top: 120px;
+    padding-bottom: 107px;
+    background-color: $first-background-color;
+}
+
+.site__title {
+    margin-bottom: 18px;
+}
+
+.site__info {
+    @extend %list;
+    text-align: center;
+}
+
+.info__list:not(:last-child) {
+    margin-bottom: 50px;
+}

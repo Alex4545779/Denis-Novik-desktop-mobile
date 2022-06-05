@@ -9,17 +9,21 @@
     padding-right: 15px;
     margin-left: auto;
     margin-right: auto;
-    width: 1130px;
+    width: 970px;
+    // outline: 2px solid tomato;
 }
 
 %link {
-    font-size: 14px;
-    line-height: 1.14;
-    letter-spacing: 0.05em;
+    font-family: $second-font-family;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.22;
+    color: $second-color;
 
     &:hover,
     &:focus,
     &:active {
-        color: $second-color;
+        color: $main-color;
     }
 }
