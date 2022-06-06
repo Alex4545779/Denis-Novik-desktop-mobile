@@ -21,7 +21,11 @@ background-color: $second-background-color;
     text-align: center;
 }
 .card__skills {
-    height: 205px;
+    height: 206px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .card__skills:not(:last-child) {
@@ -33,9 +37,9 @@ background-color: $second-background-color;
 }
 
 .card__text {
-    max-width: 80px;
+    max-width: 85px;
     margin-left: auto;
-    margin-bottom: 40px;
+    // margin-bottom: 40px;
     margin-right: auto;
     font-family: $second-font-family;
     font-style: normal;
@@ -50,6 +54,7 @@ background-color: $second-background-color;
 .stars__item {
     @extend %list;
     display: flex;
+    margin-top: auto;
 }
 
 .star__list:not(:last-child) {

@@ -225,7 +225,20 @@ h2 {
 }
 
 .card__skills {
-  height: 205px;
+  height: 206px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .card__skills:not(:last-child) {
@@ -237,9 +250,8 @@ h2 {
 }
 
 .card__text {
-  max-width: 80px;
+  max-width: 85px;
   margin-left: auto;
-  margin-bottom: 40px;
   margin-right: auto;
   font-family: "Gilroy-bold", sans-serif;
   font-style: normal;
@@ -253,6 +265,7 @@ h2 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  margin-top: auto;
 }
 
 .star__list:not(:last-child) {
