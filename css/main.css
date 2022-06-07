@@ -51,7 +51,7 @@ h2 {
   list-style: none;
 }
 
-.site__header, .hero, .info, .skills, .portfolio, .footer {
+.site__header, .hero__box, .info__box, .skills__box, .portfolio__box, .footer__box {
   padding-left: 15px;
   padding-right: 15px;
   margin-left: auto;
@@ -72,10 +72,19 @@ h2 {
   color: #070707;
 }
 
+.header, .hero, .info, .skills, .portfolio, .footer {
+  width: 1445px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.header {
+  background-color: #FFFFFF;
+}
+
 .site__header {
   padding-top: 32px;
   padding-bottom: 40px;
-  background-color: #FFFFFF;
 }
 
 .site__item {
@@ -102,11 +111,14 @@ h2 {
 }
 
 .hero {
-  padding-bottom: 104px;
   background-color: #FFFFFF;
 }
 
 .hero__box {
+  padding-bottom: 104px;
+}
+
+.hero__container {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -182,9 +194,12 @@ h2 {
 }
 
 .info {
+  background-color: #F6F6F6;
+}
+
+.info__box {
   padding-top: 120px;
   padding-bottom: 107px;
-  background-color: #F6F6F6;
 }
 
 .site__title {
@@ -200,9 +215,12 @@ h2 {
 }
 
 .skills {
+  background-color: #FFFFFF;
+}
+
+.skills__box {
   padding-top: 91px;
   padding-bottom: 110px;
-  background-color: #FFFFFF;
 }
 
 .skills__title {
@@ -278,9 +296,12 @@ h2 {
 }
 
 .portfolio {
+  background-color: #F6F6F6;
+}
+
+.portfolio__box {
   padding-top: 113px;
   padding-bottom: 96px;
-  background-color: #F6F6F6;
 }
 
 .portfolio__title {
@@ -313,9 +334,12 @@ h2 {
 }
 
 .footer {
+  background-color: #FFFFFF;
+}
+
+.footer__box {
   padding-top: 114px;
   padding-bottom: 123px;
-  background-color: #FFFFFF;
 }
 
 .footer__title {

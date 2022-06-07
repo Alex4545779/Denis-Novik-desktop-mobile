@@ -1,8 +1,12 @@
 .portfolio {
+    @extend %box;
+    background-color: $first-background-color;
+}
+
+.portfolio__box {
     @extend %container;
     padding-top: 113px;
-    padding-bottom: 96px;
-    background-color: $first-background-color;
+    padding-bottom: 96px;   
 }
 
 .portfolio__title {

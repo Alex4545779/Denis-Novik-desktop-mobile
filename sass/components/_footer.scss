@@ -1,8 +1,11 @@
 .footer {
+    @extend %box;
+    background-color: $second-background-color ;
+}
+.footer__box {
     @extend %container;
     padding-top: 114px;
     padding-bottom: 123px;
-    background-color: $second-background-color ;
 }
 
 .footer__title {

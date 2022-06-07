@@ -1,8 +1,13 @@
 .skills {
+    @extend %box;
+    background-color: $second-background-color;
+}
+
+.skills__box {
     @extend %container;
 padding-top: 91px;
 padding-bottom: 110px;
-background-color: $second-background-color;
+
 }
 
 .skills__title {

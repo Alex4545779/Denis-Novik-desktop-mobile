@@ -1,8 +1,12 @@
+.header {
+    @extend %box;
+    background-color: $second-background-color;
+}
 .site__header {
     @extend %container;
     padding-top: 32px;
     padding-bottom: 40px;
-    background-color: $second-background-color;
+
 }
 
 .site__item {

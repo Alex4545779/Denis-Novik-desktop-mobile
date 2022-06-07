@@ -1,8 +1,11 @@
 .info {
+    @extend %box;
+    background-color: $first-background-color;
+}
+.info__box {
     @extend %container;
     padding-top: 120px;
     padding-bottom: 107px;
-    background-color: $first-background-color;
 }
 
 .site__title {

@@ -1,9 +1,13 @@
 .hero {
-    @extend %container;
-    padding-bottom: 104px;
+    @extend %box;
     background-color: $second-background-color;
 }
+
 .hero__box {
+    @extend %container;
+    padding-bottom: 104px;
+}
+.hero__container {
     display: flex;
     align-items: flex-end;
     padding-bottom: 30px;
